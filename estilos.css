@@ -2,15 +2,15 @@
 /*Los comentarios de CSS no se renderizan en la página*/
 /*Todas las declaraciones de estilo se encuentran en el CSS, el HTML es para contenido únicamente*/
 
+/*Importar tipografía de google fonts vía @import (sin etiquetas <style>)*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+/*Esto me permite utilizar la tipografía en todo el contenido de body. Como standard vamos a usar la 100*/
+
 /*Reseteo de márgenes de todos los elementos para todos los navegadores*/
 * {
     padding: 0px;
     margin: 0px;
 }
-
-/*Importar tipografía de google fonts vía @import (sin etiquetas <style>)*/
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
-/*Esto me permite utilizar la tipografía en todo el contenido de body. Como standard vamos a usar la 100*/
 
 body {
     /*Declaración de tipografía*/
